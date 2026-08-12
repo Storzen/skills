@@ -1,8 +1,8 @@
 # FORMAT — principle entry template
 
-Copy this block for each new principle in `PRINCIPLES.md`. The mechanism,
-application context, and — for any lever that can be misused — the ethical guard
-are required; an entry missing them is incomplete.
+Copy this block for each new principle in `PRINCIPLES.md`. The mechanism, the
+application context and the ethical guard are all required on every entry; one
+missing them is incomplete.
 
 ```
 ## UX-Pxx — <Short name>
@@ -16,9 +16,10 @@ author(s)/year — it makes the entry citable and verifiable.
 - ✅ Contexts where the lever genuinely serves the user.
 - ❌ Contexts where it is off-topic, ineffective, or tips into a dark pattern.
 
-**Ethical guard.** The line between serving the user and manipulating them.
-Required whenever the lever can be misused; sharpened where money, legal status,
-or irreversible actions are at stake.
+**Ethical guard.** Present on every entry — `SKILL.md` states how far the rule
+binds. Write the line between serving the user and manipulating them; or, when
+the lever has no realistic abuse vector, open with the exact phrase `No
+meaningful abuse vector` followed by a one-sentence reason.
 
 **Example.** One concrete, generic screen — no product-specific detail.
 ```

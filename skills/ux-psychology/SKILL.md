@@ -23,9 +23,12 @@ the line past which it manipulates. It does not produce visuals.
 
 - **Append-only IDs.** A `UX-Pxx` is never renumbered or reused; new principles
   are added at the end. A dropped one is marked DEPRECATED but keeps its number.
-- **Ethical guard is mandatory.** Many of these levers sit one step from a dark
-  pattern. Every principle states the line between serving the user and
-  manipulating them. Heightened caution where money, legal status, or
+- **Ethical guard is universal.** Many of these levers sit one step from a dark
+  pattern, so *every* entry carries the field — it is never omitted, and the
+  rule admits no exception, DEPRECATED entries included. Where a lever has no
+  realistic abuse vector, the field says so, opening with `No meaningful abuse
+  vector` and one sentence of justification: a missing field is a defect, not a
+  verdict that the lever is safe. Heightened caution where money, legal status, or
   irreversible actions are at stake: never exploit anxiety, fabricate urgency,
   or steer an unwanted commitment. Persuasion is non-coercive and respects the
   user's autonomy; anything that relies on deception or pressure is out.
@@ -52,7 +55,7 @@ template for adding a principle.
 ## Adding a principle
 
 New principles enter through `FORMAT.md`: state the mechanism with an academic
-reference, the application context, and — where the lever can be misused — the
-ethical guard. Reuse the canonical name (a shared anchor the agent already
+reference, the application context, and the ethical guard — always, per the
+catalog rule above. Reuse the canonical name (a shared anchor the agent already
 knows), give it the next free ID, and place it in the family that matches its
 screen job.
