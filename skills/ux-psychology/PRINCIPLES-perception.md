@@ -48,6 +48,13 @@ in a set is recalled best.
 - ✅ Emphasizing the single primary action on a screen.
 - ❌ When everything is emphasized, nothing is — competing CTAs cancel out.
 
+**Ethical guard.** Emphasis must track the user's interest, not the seller's.
+Rendering the accept path as a filled button and the decline path as faint grey
+text is the isolation effect turned against the reader — the standard
+confirmshaming layout. In a consequential pair, both options stay legible and
+reachable at a glance; only visual weight may differ, and only where the
+emphasized option is the one most users actually want.
+
 **Example.** One filled primary button per screen; secondary actions are quiet
 links.
 

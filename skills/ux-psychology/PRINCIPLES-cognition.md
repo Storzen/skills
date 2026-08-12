@@ -74,6 +74,12 @@ number of alternatives.
 - ✅ Navigation, menus, long forms (split into steps), option-heavy screens.
 - ❌ When collapsing options hides a consequential choice the user needs to see.
 
+**Ethical guard.** Reducing options serves the user only when nothing
+consequential leaves the screen. Collapsing, nesting, or defaulting away a
+choice that changes what the user pays, agrees to, or gives up is not
+simplification — it is concealment. Segment a consequential choice; never remove
+it from view.
+
 **Example.** A long signup form becomes a three-step wizard, each step a handful
 of fields.
 

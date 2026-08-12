@@ -28,6 +28,13 @@ peak and the ending.
   screens.
 - ❌ — applies to almost any multi-moment journey.
 
+**Ethical guard.** The rule cuts both ways: a cancellation, downgrade, or export
+flow can be engineered to *end* badly so that leaving is remembered as worse
+than it was. Guilt copy on the final step, a cold confirmation, a deliberately
+bleak last screen — that is manipulation of the memory itself, not of the
+decision. Invest in the peak and the end of every journey, including the ones
+that lead away from the product.
+
 **Example.** A checkout ends on a warm, reassuring confirmation rather than a
 bare "Order 12345".
 
