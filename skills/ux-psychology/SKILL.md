@@ -99,6 +99,9 @@ Reach for a principle when its cue describes the screen in front of you. The
 groupings below are the files the entries live in, nothing more: they are not a
 routing gate, and a single screen routinely draws from all five.
 
+Each line is generated from its entry's `Cue.` field — to change a cue, edit the
+entry.
+
 `PRINCIPLES-cognition.md` — cognitive load & decision-making
 
 - `UX-P01` Smart defaults — a field could be pre-filled from what is already known
@@ -159,8 +162,8 @@ template for adding a principle.
 
 ## Adding a principle
 
-New principles enter through `FORMAT.md`: state the mechanism with an academic
-reference, the application context, and the ethical guard — always, per the
-catalog rule above. Reuse the canonical name (a shared anchor the agent already
-knows), give it the next free ID, and add its line to the index above with a
-cue phrased as a **screen situation**, not as a mechanism.
+New principles enter through `FORMAT.md`, which holds the entry template, the
+closed vocabularies its provenance block uses, and the rules a checker enforces.
+Reuse the canonical name (a shared anchor the agent already knows), give it the
+next free ID, and phrase its cue as a **screen situation**, not as a mechanism —
+the index above regenerates from it.
