@@ -4,7 +4,7 @@ For visual hierarchy, attention, grouping, and navigation. Entry template:
 `FORMAT.md`. Catalog rules: `SKILL.md`.
 
 - `UX-P09` — Fitts's law
-- `UX-P10` — Von Restorff (isolation)
+- `UX-P10` — Von Restorff (isolation effect)
 - `UX-P18` — Aesthetic-usability effect
 - `UX-P19` — Jakob's law
 - `UX-P20` — Serial position effect
