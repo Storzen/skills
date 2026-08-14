@@ -166,4 +166,6 @@ New principles enter through `FORMAT.md`, which holds the entry template, the
 closed vocabularies its provenance block uses, and the rules a checker enforces.
 Reuse the canonical name (a shared anchor the agent already knows), give it the
 next free ID, and phrase its cue as a **screen situation**, not as a mechanism —
-the index above regenerates from it.
+the index above regenerates from it, via
+`python3 tools/check-ux-psychology.py --fix`, which also reports where the entry
+misses the format.
