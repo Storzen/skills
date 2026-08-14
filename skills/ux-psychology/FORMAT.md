@@ -158,8 +158,33 @@ citable, so a design note that already references it still resolves.
 
 ## What the checker enforces
 
-Mechanically, on every entry: the ethical guard is present; `origin:` appears
-exactly once and `warrant:` at least once; every value of `standing:`,
-`guard-basis:` and *type* is in its vocabulary above; every number has a
-`figure:` line; `accessed:` never sits on a DOI; and the `SKILL.md` index
-matches the `Cue.` lines it is generated from.
+```
+python3 tools/check-ux-psychology.py                  # the whole catalog
+python3 tools/check-ux-psychology.py --family trust   # one family, while rewriting it
+python3 tools/check-ux-psychology.py --fix            # regenerate the generated indexes
+```
+
+Python 3 stdlib only, no install step — a public prose repo that needs one to be
+verified stops being verified. Exit code 1 on any defect.
+
+Mechanically, on every entry: the ID is `UX-P` plus two digits and appears once
+across the catalog; the ethical guard is present; `origin:` appears exactly once
+and `warrant:` at least once; `standing:` and `guard-basis:` are present and
+every value of theirs and of each citation *type* is in its vocabulary above;
+every number has a `figure:` line; `accessed:` never sits on a DOI.
+
+Two exemptions to the number rule, because neither states a claim about the
+world: **screen copy in double quotes** (`"only 2 left"`, `"1 review"`) and
+reference markers (`UX-P14`, `heuristic #6`). A quantity outside them needs a
+`figure:` line or needs to stop being a quantity.
+
+A DEPRECATED stub is checked for its guard and nothing else — it carries no
+provenance.
+
+`--fix` regenerates the two generated artifacts: the `SKILL.md` index (its
+bullets, and the count in its heading) and each family file's ID→name index. It
+refuses to touch the `SKILL.md` index while any entry lacks a `Cue.`, since it
+would generate that entry out of existence.
+
+`tools/tests/run.py` runs the checker against fixtures that must pass, must fail
+on every rule, and must converge under `--fix`.
