@@ -57,7 +57,12 @@ so a check that silently stops firing is itself a test failure.
 
 **Cue.** a fixture entry states a quantity nothing backs
 
-**Principle.** A response slower than 400 ms stops feeling instantaneous.
+**Principle.** One sentence, stating no quantity of its own.
+
+**Applies / doesn't.**
+- ✅ Where a response arrives in under 400 ms — the only quantity in this entry,
+  so the figure rule fires here or it does not fire at all.
+- ❌ Where a fake "only 2 left" counter is quoted screen copy, not a claim.
 
 **Ethical guard.** A guard, so only the figure rule fires here.
 
