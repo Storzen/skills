@@ -1,2 +1,6 @@
 .idea/
 .DS_Store
+
+# Agent worktrees live under the repo root; committing one duplicates a whole
+# branch as ordinary files (see the PR #23 incident).
+.claude/worktrees/
