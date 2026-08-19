@@ -58,7 +58,10 @@ ENTRY_KEYS = {"standing", "guard-basis"}
 # silently as a non-entry heading.
 ENTRY_RE = re.compile(r"^##\s+(\S+)\s+—\s+(.+?)\s*$")
 ID_RE = re.compile(r"^UX-P\d{2}$")
-FIELD_RE = re.compile(r"^\*\*([A-Za-z][A-Za-z /]*)\.\*\*\s*(.*)$")
+# The apostrophe is load-bearing: without it `**Applies / doesn't.**` is not a
+# field, and the whole ✅/❌ block — the likeliest home for a conditional
+# threshold — falls out of every check, the `figure:` rule included.
+FIELD_RE = re.compile(r"^\*\*([A-Za-z][A-Za-z /'’]*)\.\*\*\s*(.*)$")
 KEY_RE = re.compile(r"^`([a-z-]+):`\s*(.*)$")
 DOI_RE = re.compile(r"doi\.org/|\b10\.\d{4,}/")
 # A bare quantity: the years, thresholds, effect sizes and counts an entry may
