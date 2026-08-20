@@ -107,8 +107,8 @@ entry.
 - `UX-P01` Smart defaults — a field could be pre-filled from what is already known
 - `UX-P06` Anchoring / contrast — a number or price is judged against something else
 - `UX-P07` Hick's law — many routes or options are offered at once
-- `UX-P08` Miller's law — the user must hold several items in mind at once
-- `UX-P13` Tesler's law — a step could be automated or inferred instead of asked
+- `UX-P08` Chunking (Miller's law) — the user must hold several items in mind at once
+- `UX-P13` Tesler's law (conservation of complexity) — a step could be automated or inferred instead of asked
 - `UX-P14` Choice overload — more than a handful of comparable options sit together
 - `UX-P15` Occam's razor — a screen has accumulated elements and needs cutting
 - `UX-P16` Decoy effect — a comparison set includes an option nobody should pick
@@ -117,42 +117,42 @@ entry.
 `PRINCIPLES-perception.md` — visual hierarchy, attention, grouping
 
 - `UX-P09` Fitts's law — a target must be hit fast: CTA, confirm/cancel, touch target
-- `UX-P10` Von Restorff — one action should dominate the others visually
+- `UX-P10` Von Restorff (isolation effect) — one action should dominate the others visually
 - `UX-P18` Aesthetic-usability effect — a first impression or trust-sensitive screen
 - `UX-P19` Jakob's law — a control or layout departs from what users meet elsewhere
 - `UX-P20` Serial position effect — the order of a list, menu, or sequence matters
-- `UX-P21` Proximity — spacing must say what belongs with what
-- `UX-P22` Similarity — elements of the same kind must read as the same kind
+- `UX-P21` Proximity (Gestalt) — spacing must say what belongs with what
+- `UX-P22` Similarity (Gestalt) — elements of the same kind must read as the same kind
 - `UX-P23` Common region — a card, panel, or section boundary groups content
-- `UX-P24` Prägnanz — the layout could resolve with fewer lines and boxes
+- `UX-P24` Closure (often filed under Prägnanz) — structure could be implied by alignment instead of drawn
 
 `PRINCIPLES-motivation.md` — progress, commitment, retention
 
-- `UX-P02` Never start at zero — a multi-step journey shows progress from nothing
+- `UX-P02` Endowed progress (never start at zero) — a multi-step journey shows progress from nothing
 - `UX-P03` Loss aversion — the user risks losing something real (unsaved work, an expiring draft)
 - `UX-P05` IKEA effect — the user invests effort configuring or building something
-- `UX-P11` Zeigarnik effect — a task is left unfinished and can be resumed
+- `UX-P11` Resumption of interrupted tasks (Zeigarnik effect) — a task is left unfinished and can be resumed
 - `UX-P25` Goal-gradient effect — the end of a flow is in sight and can be shown
-- `UX-P26` Commitment & consistency — a small first action precedes a larger ask
+- `UX-P26` Foot-in-the-door (commitment & consistency) — a small first action precedes a larger ask
 - `UX-P27` Sunk cost — the screen invokes what the user has already invested
 - `UX-P28` Variable reward — a reward or delight moment repeats unpredictably
-- `UX-P29` Parkinson's law — a step carries a time budget, a hold, or a deadline
+- `UX-P29` Excess time effect (Parkinson's law) — a step runs without a stated end, or carries a real deadline
 
 `PRINCIPLES-persuasion.md` — social influence
 
-- `UX-P04` Reciprocity — value is given before something is asked in return
-- `UX-P30` Social proof — others' behavior is shown to guide a choice
-- `UX-P31` Authority — credibility must be established: payment, security, health, finance
-- `UX-P32` Scarcity — availability, stock, seats, or a deadline is limited
-- `UX-P33` Liking — voice, tone, empty states, or error copy carry personality
-- `UX-P34` Unity — the product speaks in terms of a shared identity or membership
+- `UX-P04` Reciprocity — an ask is coming and the user has been given nothing yet
+- `UX-P30` Social proof — the user cannot judge the thing directly and others already have
+- `UX-P31` Authority — the user must judge a claim they cannot verify themselves
+- `UX-P32` Scarcity — availability is limited and the limit is about to be shown
+- `UX-P33` Liking — the product's voice, persona, or human presence is being written
+- `UX-P34` Unity — the product and its users genuinely belong to the same group
 
 `PRINCIPLES-trust.md` — feedback, errors, memory, credibility
 
 - `UX-P12` Peak-end rule — a flow has a high point or an ending: confirmation, success, recovery
 - `UX-P35` Recognition over recall — the user must carry something in memory across steps
 - `UX-P36` Visibility of system status — something happens the user cannot see
-- `UX-P37` Doherty threshold — a response takes longer than an instant
+- `UX-P37` Sub-second response (Doherty threshold) — a response takes longer than an instant
 - `UX-P38` Error prevention & forgiveness — an action can be invalid, fail, or be irreversible
 - `UX-P39` Curse of knowledge — wording assumes product knowledge: onboarding, labels, errors
 - `UX-P40` Consistency & standards — the same thing appears in more than one place
